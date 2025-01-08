@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- 定义风车中心为旋转基点 -->
+    <group android:pivotX="50" android:pivotY="50">
+        <!-- 第1个叶片 -->
+        <path
+            android:fillColor="#2196F3"
+            android:pathData="M50,50 L50,20 L65,35 Z" />
+
+        <!-- 第2个叶片（旋转90度） -->
+        <path
+            android:fillColor="#2196F3"
+            android:pathData="M50,50 L80,50 L65,65 Z" />
+
+        <!-- 第3个叶片（旋转180度） -->
+        <path
+            android:fillColor="#2196F3"
+            android:pathData="M50,50 L50,80 L35,65 Z" />
+
+        <!-- 第4个叶片（旋转270度） -->
+        <path
+            android:fillColor="#2196F3"
+            android:pathData="M50,50 L20,50 L35,35 Z" />
+
+
+    </group>
+</vector>
